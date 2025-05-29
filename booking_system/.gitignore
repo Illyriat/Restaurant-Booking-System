@@ -1,0 +1,57 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build logs
+*.log
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# Dotnet tools
+tools/
+
+# Entity Framework Core Migrations (optional: keep if tracked)
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+# ASP.NET secrets
+secrets.json
+*.secret.json
+
+# User environment
+*.env
+*.launchSettings.json
+
+# Dependency folders
+node_modules/
+packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Coverage and test results
+coverage/
+TestResults/
+
+# Global.json SDK settings (optional)
+global.json
